@@ -2,8 +2,36 @@ Redis 3.0 源码注释
 ============================
 
 原始代码来自： 
-            https://github.com/antirez/redis 。
-            https://github.com/huangz1990/redis-3.0-annotated
+            https://github.com/antirez/redis 
+         
+	    https://github.com/huangz1990/redis-3.0-annotated
+
+## Linux下redis安装和部署 
+> wget http://download.redis.io/releases/redis-3.0.0.tar.gz
+> cp redis-3.0.0.rar.gz /usr/local
+> tar -zxvf redis-3.0.0.tar.gz 
+> cd /usr/local/redis-3.0.0
+> make PREFIX=/usr/local/redis install
+
+redis.conf是redis的配置文件，redis.conf在redis源码目录。
+拷贝配置文件到安装目录下
+进入源码目录，里面有一份配置文件 redis.conf，然后将其拷贝到安装路径下
+> cd /usr/local/redis
+> cp /usr/local/redis-3.0.0/redis.conf  /usr/local/redis/bin
+
+> cd /usr/local/redis/bin
+
+redis-benchmark redis性能测试工具
+redis-check-aof AOF文件修复工具
+redis-check-rdb RDB文件修复工具
+redis-cli redis命令行客户端
+redis.conf redis配置文件
+redis-sentinal redis集群管理工具
+redis-server redis服务进程
+
+启动redis
+> ./redis-server
+
       
 进行源码阅读
 
