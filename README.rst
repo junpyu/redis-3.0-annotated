@@ -1,8 +1,10 @@
 Redis 3.0 源码注释
 ============================
 
-原始代码来自： https://github.com/antirez/redis 。
-
+原始代码来自： 
+            https://github.com/antirez/redis 。
+            https://github.com/huangz1990/redis-3.0-annotated
+      
 进行源码阅读
 
 2020.05
