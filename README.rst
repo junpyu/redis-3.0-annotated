@@ -17,11 +17,9 @@ Redis 3.0 源码注释
 
 > make PREFIX=/usr/local/redis install
 
-redis.conf是redis的配置文件，redis.conf在redis源码目录。
-
-拷贝配置文件到安装目录下
-
-进入源码目录，里面有一份配置文件 redis.conf，然后将其拷贝到安装路径下
+	redis.conf是redis的配置文件，redis.conf在redis源码目录。
+	拷贝配置文件到安装目录下
+	进入源码目录，里面有一份配置文件 redis.conf，然后将其拷贝到安装路径下
 
 > cd /usr/local/redis
 
@@ -29,13 +27,13 @@ redis.conf是redis的配置文件，redis.conf在redis源码目录。
 
 > cd /usr/local/redis/bin
 
-redis-benchmark redis性能测试工具
-redis-check-aof AOF文件修复工具
-redis-check-rdb RDB文件修复工具
-redis-cli redis命令行客户端
-redis.conf redis配置文件
-redis-sentinal redis集群管理工具
-redis-server redis服务进程
+	redis-benchmark redis性能测试工具
+	redis-check-aof AOF文件修复工具
+	redis-check-rdb RDB文件修复工具
+	redis-cli redis命令行客户端
+	redis.conf redis配置文件
+	redis-sentinal redis集群管理工具
+	redis-server redis服务进程
 
 启动redis
 
